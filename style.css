@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(1, 31, 63);
+}
+
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 3.5rem;
+    color: white;
+    
+}
+
+.container{
+    height: 70vh;
+    width: 50vw;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+
+.box{
+    height: 30vh;
+    width: 15vw;
+    border: 7px solid black;
+    margin: 25px;
+    margin-top: 10px;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+
+.gameOver{
+    background-color: red;
+}
+
+@media (max-width : 638px){
+    .box{
+        width: 30vw;
+        height:15vh ;
+        margin-top: 2px;
+        margin: 15px;
+    }
+    .container{
+        top: 25%;
+    }
+} 
